@@ -21,3 +21,8 @@ source ~/z.sh
 unsetopt CORRECT                      # Disable autocorrect guesses. Happens when typing a wrong
                                       # command that may look like an existing one.
 
+# fzf installation
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Interactive cd using fzf (https://github.com/changyuheng/zsh-interactive-cd)
+source ~/zsh-interactive-cd/zsh-interactive-cd.plugin.zsh
